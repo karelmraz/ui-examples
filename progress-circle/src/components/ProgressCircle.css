@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600..700&display=swap');
+
+:root {
+  --neutral-600: #4a516d;
+}
+
+.progress-circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.progress-circle__svg {
+  transform: rotate(-90deg);
+}
+
+.progress-circle__info-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.progress-circle__icon {
+  width: 1.6em;
+  height: 1.6em;
+  margin-bottom: 0.3em;
+}
+
+.progress-circle__title {
+  font-family: 'Manrope', sans-serif;
+  color: var(--neutral-600);
+  font-weight: 600;
+  margin-top: 0.2em;
+  margin-bottom: 0.6em;
+  font-size: 1em;
+}
+
+.progress-circle__percentage {
+  font-family: 'Manrope', sans-serif;
+  color: var(--neutral-600);
+  font-weight: 700;
+  font-size: 1.5em;
+}
