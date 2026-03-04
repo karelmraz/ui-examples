@@ -1,0 +1,8 @@
+.progress-circles-wrapper {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 32px;
+  gap: 32px;
+}
