@@ -1,0 +1,21 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    background: #0a0a0a;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+canvas.webgl {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+
+
+
